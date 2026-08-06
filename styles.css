@@ -2,156 +2,132 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial;
+font-family:Arial,sans-serif;
 }
 
 body{
-background:#fafafa;
+background:#ffffff;
+color:#333;
 }
 
 nav{
-
 display:flex;
 justify-content:space-between;
 align-items:center;
+padding:6px 12px;
+background:#222;
+color:#fff;
+}
 
-padding:15px 30px;
-
-background:white;
-
+nav h2{
+font-size:18px;
 }
 
 nav ul{
-
 display:flex;
 list-style:none;
-gap:18px;
-
+gap:40px;
 }
 
 nav button{
-
-padding:10px 18px;
+padding:4px 10px;
+background:#ffff00;
+color:#ffffff;
 border:none;
-background:#4A46F5;
-color:white;
-
+border-radius:0;
+cursor:pointer;
 }
 
 .hero{
-
 height:420px;
-
 display:flex;
-
 align-items:center;
-
-padding-left:70px;
-
-background:linear-gradient(90deg,#6C63FF,#3B82F6);
-
+padding-left:120px;
+background:#ff0000;
 }
 
 .hero h1{
-
-font-size:58px;
-
-width:450px;
-
+font-size:16px;
+width:220px;
+line-height:1.2;
+color:#ffffff;
 }
 
 .hero p{
-
-width:420px;
-
-margin-top:15px;
-
-margin-bottom:25px;
-
+width:180px;
+font-size:11px;
+margin-top:8px;
+margin-bottom:16px;
+color:#f5f5f5;
 }
 
 .primary{
-
-background:#4A46F5;
-
-color:white;
-
-padding:14px 28px;
-
+background:#ffff00;
+color:#ffffff;
+padding:8px 16px;
 border:none;
-
+border-radius:40px;
+font-size:12px;
+cursor:pointer;
 }
 
 .movies{
+padding:80px 10px;
+}
 
-padding:60px;
-
+.movies h2{
+font-size:20px;
+margin-bottom:20px;
 }
 
 .cards{
-
 display:flex;
-
-gap:25px;
-
-margin-top:30px;
-
+gap:70px;
+justify-content:flex-start;
 }
 
 .card{
-
-width:300px;
-
-background:white;
-
-padding:15px;
-
-box-shadow:0 3px 10px rgba(0,0,0,.1);
-
+width:250px;
+background:#fafafa;
+padding:8px;
+margin-top:40px;
+border-radius:30px;
+box-shadow:none;
 }
 
 .card img{
-
 width:100%;
-
+height:120px;
+object-fit:cover;
+border-radius:20px;
 }
 
 .card h3{
-
-margin:15px 0;
-
+margin:8px 0;
+font-size:15px;
 }
 
 .card p{
-
-margin-bottom:20px;
-
+font-size:11px;
+margin-bottom:10px;
+color:#777;
 }
 
 .card button{
-
 width:100%;
-
-padding:12px;
-
-background:black;
-
-color:white;
-
+padding:6px;
+background:#00ff00;
+color:#ffffff;
 border:none;
-
+font-size:11px;
+cursor:pointer;
 }
 
 footer{
-
-margin-top:70px;
-
-padding:35px;
-
+margin-top:100px;
+padding:15px;
 background:#111;
-
-color:white;
-
-text-align:center;
-
+color:#777;
+text-align:left;
+font-size:12px;
 }
