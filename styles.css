@@ -6,7 +6,7 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#fafafa;
+background:#f7f7f7;
 color:#333;
 }
 
@@ -15,27 +15,27 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 40px;
-background:#fff;
+background:white;
 }
 
 nav h2{
-font-size:15px;
-font-weight:400;
+font-size:28px;
+font-weight:700;
 }
 
 nav ul{
 display:flex;
 list-style:none;
-gap:25px;
-font-size:12px;
+gap:24px;
 }
 
 nav button{
-padding:10px 18px;
+padding:12px 22px;
 background:#4A46F5;
 color:white;
 border:none;
 border-radius:6px;
+font-size:15px;
 }
 
 .hero{
@@ -43,81 +43,116 @@ height:420px;
 display:flex;
 align-items:center;
 padding-left:70px;
-background:#F3F5FF;
+background:#EEF2FF;
 }
 
 .hero h1{
-font-size:18px;
-font-weight:300;
-line-height:1;
-width:320px;
+font-size:52px;
+margin-bottom:20px;
 }
 
 .hero p{
-font-size:10px;
-line-height:1;
-width:250px;
-margin-top:8px;
-margin-bottom:18px;
+font-size:18px;
+width:450px;
+margin-bottom:24px;
 }
 
 .primary{
-padding:12px 22px;
+padding:14px 28px;
 background:#4A46F5;
 color:white;
 border:none;
+border-radius:30px;
+font-size:18px;
 }
 
 .movies{
 padding:60px;
 }
 
-.movies h2{
-font-size:18px;
-font-weight:400;
-margin-bottom:20px;
-}
-
 .cards{
 display:flex;
 gap:24px;
+margin-top:30px;
 }
 
 .card{
 width:300px;
+padding:20px;
 background:white;
-padding:18px;
-box-shadow:0 4px 10px rgba(0,0,0,.08);
+border-radius:4px;
+box-shadow:0 3px 8px rgba(0,0,0,.08);
+}
+
+.card:nth-child(2){
+border-radius:28px;
+box-shadow:none;
+padding:40px;
+}
+
+.card:nth-child(3){
+border-radius:0;
+box-shadow:0 15px 35px rgba(0,0,0,.35);
+padding:10px;
 }
 
 .card img{
 width:100%;
+border-radius:12px;
 }
 
 .card h3{
+margin:16px 0;
+font-size:22px;
+}
+
+.card:nth-child(2) h3{
 font-size:14px;
-font-weight:400;
-margin:8px 0;
+font-weight:300;
+}
+
+.card:nth-child(3) h3{
+font-size:30px;
+font-weight:900;
 }
 
 .card p{
-font-size:10px;
-line-height:1.1;
-margin-bottom:14px;
+margin-bottom:20px;
+font-size:15px;
 }
 
 .card button{
 width:100%;
-padding:10px;
-background:#222;
-color:white;
+padding:12px;
 border:none;
+cursor:pointer;
+}
+
+.card:nth-child(1) button{
+background:#4A46F5;
+color:white;
+border-radius:6px;
+}
+
+.card:nth-child(2) button{
+background:#22C55E;
+color:black;
+border-radius:30px;
+font-size:12px;
+}
+
+.card:nth-child(3) button{
+background:black;
+color:white;
+border-radius:0;
+font-size:20px;
+padding:20px;
 }
 
 footer{
-padding:30px;
+margin-top:70px;
+padding:40px;
 text-align:center;
-font-size:10px;
 background:#111;
 color:white;
 }
